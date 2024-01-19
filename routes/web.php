@@ -21,7 +21,7 @@ Route::get('/','HomeController@showWelcome');
 //    return view('welcome');
 //});
 
-Route::get('profile/{name}','ProfileController@showProfile');
+Route::get('profile/{name}','App\Http\Controllers\ProfileController@showProfile');
 
 Route::get('about','App\Http\Controllers\AboutController@showWDetails');
 Route::get('about/{theSubject}', 'App\Http\Controllers\AboutController@showSubject');
