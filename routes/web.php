@@ -28,9 +28,9 @@ Route::get('about/{theSubject}', 'App\Http\Controllers\AboutController@showSubje
 
 Route::get('about','App\Http\Controllers\AboutController@showDetails');
 
-//Route::get('about', function () {
-//    return 'About Content';
-//});
+Route::get('about', function () {
+    return 'About Content';
+});
 
 //Route::get('about/directions', function () {
 //    return 'Directions go here';
